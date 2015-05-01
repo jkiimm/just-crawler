@@ -1,0 +1,26 @@
+{
+  "name": "just-crawler",
+  "version": "0.1.0",
+  "description": "nothing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jinyoung Kim",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "glob": "^5.0.5",
+    "phantomjs": "^1.9.16",
+    "request": "^2.55.0"
+  },
+  "main": "opic_crawler.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ligeek/just-crawler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ligeek/just-crawler/issues"
+  },
+  "homepage": "https://github.com/ligeek/just-crawler"
+}
