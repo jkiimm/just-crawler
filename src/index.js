@@ -10,6 +10,11 @@ var auth = {
     pw: process.argv[3]
 };
 
+//var origin = 'https://ajouin.com/index.php?mid=lecturereview1&';
+//var urls = [];
+//for(var i = 0; i < 104; i++) {
+//  urls.push(origin + 'page=' + (i+1));
+//}
 var url = 'https://ajouin.com/lecturereview1';
 
 var childArgs = [
@@ -21,6 +26,13 @@ var childArgs = [
 childProcess.execFile(binPath, childArgs.concat(url), function(err, stdout, stderr) {
   console.log(err, stdout, stderr); 
 });
+
+//urls.forEach(function(url) {
+//  console.log(url);
+//  childProcess.execFile(binPath, childArgs.concat(url), function(err, stdout, stderr) {
+//    console.log(err, stdout, stderr); 
+//  });
+//});
 
 //glob('./outputs/*.txt', function(err, files) {
 //  files.forEach(function(filePath) { ttsMaker(filePath); });
